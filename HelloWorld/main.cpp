@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
     long long n_llong = LLONG_MAX;
     
     // sizeof operator yields size of type or of variable
-    cout<<"int is "<<sizeof n_int <<" bytes"<<endl;
+    cout<<"int is "<<sizeof(int)<<" bytes"<<endl;
     cout<<"short is "<<sizeof n_short<<" bytes"<<endl;
     cout<<"long is "<<sizeof n_long<<" bytes"<<endl;
     cout<<"long long is "<<sizeof n_llong<<" bytes"<<endl;
